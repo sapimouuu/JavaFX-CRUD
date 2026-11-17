@@ -11,7 +11,7 @@ public class TambahMahasiswa {
         try (Connection conn = Koneksi.getKoneksi();
              PreparedStatement ps = conn.prepareStatement(sql)) {
 
-            ps.setString(1, "2310012345");
+            ps.setString(1, "18102006");
             ps.setString(2, "Nurfitria Ramadhani");
             ps.setString(3, "Teknologi Informasi");
             ps.setInt(4, 3);
